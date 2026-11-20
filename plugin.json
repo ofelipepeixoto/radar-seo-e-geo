@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "radar-seo-e-geo",
+  "version": "0.1.0",
+  "description": "Audite páginas, acompanhe buscas, examine prontidão para IA e planeje conteúdo com evidências.",
+  "author": {"name": "Radar"},
+  "extensions": {"com.openai": {"interface": {
+    "displayName": "Radar SEO e GEO",
+    "shortDescription": "SEO por página, com evidência",
+    "longDescription": "Descubra o que revisar na página que deveria trazer leitores ou clientes. Comece com uma URL, HTML ou planilha e saiba como medir cada mudança.",
+    "developerName": "Radar",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "logo": "./assets/radar.png",
+    "composerIcon": "./assets/radar.png",
+    "defaultPrompt": ["Por que esta página não aparece para meu serviço?", "Quais matérias ganharam ou perderam cliques na busca?", "O que falta para esta página ser entendida por buscadores e IAs?"]
+  }}}
+}
