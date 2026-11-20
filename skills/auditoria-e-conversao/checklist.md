@@ -4,7 +4,8 @@ URL solicitada | URL final | serviço ou matéria | consulta e região | ação 
 
 | Verificação | Evidência a registrar | Como conferir |
 | --- | --- | --- |
-| HTTP e migração | Status, saltos e destino | Repetir a leitura das URLs de origem |
+| Escopo de navegação | Hosts e caminhos autorizados, destinos conferidos e ponto de parada | Conferir URL inicial, resolução e cada salto antes do acesso, inclusive links de sitemap |
+| HTTP e migração | Status, saltos observados e destino permitido | Repetir a leitura das URLs de origem respeitando o escopo e os controles da ferramenta |
 | Rastreamento | robots.txt por agente e caminho | Conferir a regra efetiva para a URL |
 | Indexação | Meta robots, X-Robots-Tag, inspeção e data | Conferir versão indexada e teste ao vivo separadamente |
 | Canônica | Declarada e selecionada, se disponível | Conferir HTML e inspeção da propriedade |
