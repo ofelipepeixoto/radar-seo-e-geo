@@ -22,7 +22,7 @@ O pacote funciona com arquivos fornecidos na conversa. Consultas a contas privad
 Na raiz do repositório, execute:
 
 ```sh
-zip -r ../Radar-SEO-e-GEO-0.1.0.zip plugin.json skills assets
+zip -r ../Radar-SEO-e-GEO-0.1.1.zip plugin.json skills assets
 ```
 
 O arquivo gerado pode ser usado no Plugin Creator para criar uma instalação privada.
@@ -32,3 +32,9 @@ O arquivo gerado pode ser usado no Plugin Creator para criar uma instalação pr
 Foram verificados o manifesto, as quatro habilidades e os arquivos de apoio. Os cenários fictícios cobriram detecção de `noindex`, CTR de 0,8% (8 de 1.000), regras distintas para OAI-SearchBot e GPTBot, pesquisa sem fonte de métricas e 30 cliques no WhatsApp com total de contatos desconhecido. A validação usou testes locais e revisão de instruções. A execução completa em conversa com o plugin instalado ficou pendente.
 
 Veja os [créditos e as fontes técnicas](skills/creditos.md).
+
+## Segurança da versão 0.1.1
+
+As quatro habilidades compartilham regras para conferir destinos antes da navegação, interromper acessos internos ou fora do escopo e revisar os dados enviados a cada ferramenta. A pesquisa pública usa termos mínimos autorizados. As instruções tratam também o caso em que a ferramenta não permite validar os redirecionamentos.
+
+O [registro de validação](docs/validacao-seguranca-0.1.1.md) apresenta os cenários revisados e os limites da verificação. O controle efetivo da rede depende das ferramentas de navegação disponíveis no ChatGPT.

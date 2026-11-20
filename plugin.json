@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "radar-seo-e-geo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Audite páginas, acompanhe buscas, examine prontidão para IA e planeje conteúdo com evidências.",
   "author": {"name": "Radar"},
   "extensions": {"com.openai": {"interface": {
